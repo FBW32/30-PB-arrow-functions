@@ -91,7 +91,7 @@ function calcCircumfrence(radius) {
 }calcCircumfrence(5); // The circumference is 31.41592653589793
 function calcArea(radius) {
     let area = Math.PI * radius * radius;
-    console.log("The area is " + area);
+    console.log("The area of circle is " + area);
 }calcArea(5); // The area is 78.53981633974483
 
 /* 7. The Inventors
