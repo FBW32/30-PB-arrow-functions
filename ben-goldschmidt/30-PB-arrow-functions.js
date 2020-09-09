@@ -261,10 +261,8 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick
 let peoplePrint = 0;
 let orderedPeople = (peopleArray) => {
     for (i = 0; i < peopleArray.length; i++) {
-        if ((peopleArray[i]) > (peopleArray[+1])) {
-            peoplePrint = peopleArray[i]
-            console.log(peoplePrint)
-        }
+        peoplePrint = peopleArray[i]
+        console.log(peoplePrint)
     }
 }
 orderedPeople(people);
