@@ -239,7 +239,7 @@ filterinvestors(inventors);
 
 
 console.log("")
-console.log("Question 8: The Inventors")
+console.log("Question 8: Look at all the people...")
 // 8. Look at all the people...
 // Given the following array, sort the people alphabetically by last name.
 
@@ -266,3 +266,4 @@ let orderedPeople = (peopleArray) => {
     }
 }
 orderedPeople(people);
+
